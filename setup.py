@@ -11,7 +11,7 @@ setup(name='mypkg',
     install_requires = [''],
     entry_points = {
         'console_scripts': [
-            'mypkg = my_project.__main__:main'
+            'mypkg = mypkg.__main__:main'
         ]
     },
     )

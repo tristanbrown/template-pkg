@@ -3,8 +3,8 @@ Main routine of the package.
 """
 
 import sys
-import config
-from mymodule import A_Class
+from mypkg import config
+from mypkg import mymodule
 
 def main(args=None):
     
